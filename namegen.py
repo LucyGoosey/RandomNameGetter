@@ -28,11 +28,11 @@ if(option == "O"):
     numNames /= 2;
 
 if(option == "B" or option == "O"):
-    print "{0} random boys names:".format(numNames);
+    print("{0} random boys names:".format(numNames))
     for _ in range(numNames):
         print(random.choice(boys));
     
 if(option == "G" or option == "O"):
-    print "\n{0} random girls names:".format(numNames);
+    print("\n{0} random girls names:".format(numNames))
     for _ in range(numNames):
         print(random.choice(girls));
